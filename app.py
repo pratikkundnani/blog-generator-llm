@@ -6,7 +6,7 @@ from langchain.llms import CTransformers
 
 def getLLamaresponse(input_text,no_words,blog_style):
 
-    ### LLama2 model
+    ### Change the model here - 
     llm=CTransformers(model='models/llama-2-7b-chat.ggmlv3.q8_0.bin',
                       model_type='llama')
     
