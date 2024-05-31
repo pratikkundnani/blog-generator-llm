@@ -14,5 +14,5 @@ This project is a Streamlit web application that generates blog content based on
 3. Click on the "Generate" button to generate the blog content.
 
 ## Local Model
-The application uses a local LLama 2 model located in the `models` directory to generate responses.
+The application uses a local model located in the `models` directory to generate responses. Specify the model path in Ctransformers params.
 
